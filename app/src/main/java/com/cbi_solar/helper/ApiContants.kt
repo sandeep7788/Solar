@@ -2,8 +2,8 @@ package com.cbi_solar.helper
 
 object ApiContants {
 
-        const val PREF_base_url = "http://cbisolar.in/cbipanel/Api/Api/"
-        const val PREF_ImageUrl = "http://cbisolar.in/cbipanel"
+        const val PREF_base_url = "https://cbisolar.in/cbipanel/Api/Api/"
+        const val PREF_ImageUrl = "https://cbisolar.in/cbipanel"
         const val PREF_customerlogin = "customerlogin"
         const val PREF_profile = "profile"
         const val PREF_customer_regis = "customer_regis"

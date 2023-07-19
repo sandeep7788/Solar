@@ -25,11 +25,33 @@
         <ProgressBar
             android:id="@+id/progressBar"
             android:layout_width="35dp"
+            android:elevation="16dp"
             android:layout_height="35dp"
-            android:progressTint="@color/green_color"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
-            android:layout_marginBottom="25dp"/>
+            android:layout_marginBottom="25dp"
+            android:progressTint="@color/green_color" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/progressBar"
+            android:layout_below="@+id/imageView4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/intel"
+            android:foregroundGravity="center|left"
+            android:gravity="center|bottom"
+            android:minLines="1"
+            android:text="App Ver: 2.0.0"
+            android:textColor="@color/gpvch_black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
 
 
     </RelativeLayout>

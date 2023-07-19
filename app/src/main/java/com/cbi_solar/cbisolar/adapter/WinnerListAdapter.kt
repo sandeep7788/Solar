@@ -36,8 +36,9 @@ class WinnerListAdapter(var requestManager: RequestManager) :
 
             holder.binding.txtTitle.text = mOptionList.get(position).title
             holder.binding.txtName.text = mOptionList.get(position).winner_name
-            holder.binding.txtPosition.text = mOptionList.get(position).position
+//            holder.binding.txtPosition.text = mOptionList.get(position).position
             holder.binding.txtPrize.text = mOptionList.get(position).prize
+            holder.binding.txtToken.text = "Token: "+mOptionList.get(position).token
 
         } catch (e: Exception) {
 

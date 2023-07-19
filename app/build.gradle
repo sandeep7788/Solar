@@ -14,8 +14,8 @@ android {
         applicationId "com.cbi_solar.cbisolar"
         minSdk 21
         targetSdk 31
-        versionCode 3
-        versionName "1.2"
+        versionCode 5
+        versionName "2.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

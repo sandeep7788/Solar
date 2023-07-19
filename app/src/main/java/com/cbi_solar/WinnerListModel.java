@@ -11,13 +11,12 @@ public class WinnerListModel {
     @SerializedName("winner_name")
     @Expose
     private String winner_name;
-    @SerializedName("position")
+    @SerializedName("token_no")
     @Expose
-    private String position;
+    private String token;
     @SerializedName("prize")
     @Expose
     private String prize;
-
 
     public String getTitle() {
         return title;
@@ -35,12 +34,12 @@ public class WinnerListModel {
         this.winner_name = winner_name;
     }
 
-    public String getPosition() {
-        return position;
+    public String getToken() {
+        return token;
     }
 
-    public void setPosition(String position) {
-        this.position = position;
+    public void setToken(String token) {
+        this.token = token;
     }
 
     public String getPrize() {

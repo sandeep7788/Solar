@@ -168,7 +168,7 @@ class MainActivity : AppCompatActivity() {
                             for (i in 0 until jsonArray.length()) {
 
                                 var json = JSONObject(jsonArray.getJSONObject(i).toString())
-                                listBanner.add(ApiContants.PREF_ImageUrl + json.getString("banner_img"))
+                                listBanner.add(ApiContants.PREF_ImageUrl + json.getString("file_path"))
                                 listTitle.add("")
                             }
                             if (listBanner.size > 0) {

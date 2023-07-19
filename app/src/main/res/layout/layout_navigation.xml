@@ -321,7 +321,7 @@
                             android:layout_marginStart="105dp"
                             android:drawableTint="@color/black"
                             android:fontFamily="@font/intel"
-                            android:text="App Ver: 1.1.0"
+                            android:text="App Ver: 2.0.0"
                             android:textColor="@color/nev_textcolor"
                             android:textSize="@dimen/text_nev"
                             android:textStyle="bold" />

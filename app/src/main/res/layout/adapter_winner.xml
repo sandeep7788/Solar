@@ -23,6 +23,7 @@
             android:layout_marginTop="4dp"
             android:layout_marginEnd="24dp"
             android:layout_marginBottom="4dp"
+            android:visibility="gone"
             android:fontFamily="@font/intel"
             android:foregroundGravity="center"
             android:gravity="center"
@@ -117,6 +118,19 @@
 
             <TextView
                 android:id="@+id/txtPrize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="65dp"
+                android:foregroundGravity="center|left"
+                android:fontFamily="@font/intel"
+                android:gravity="center|left"
+                android:layout_marginBottom="@dimen/txt_15sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/txtToken"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|left"

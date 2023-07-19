@@ -97,10 +97,10 @@ class DiscountActivity : AppCompatActivity() {
 
                                 val data = WinnerListModel()
                                 data.title = json.getString("title")
-                                data.position = json.getString("position")
+//                                data.position = json.getString("position")
                                 data.prize = json.getString("prize")
                                 data.winner_name = json.getString("winner_name")
-
+                                data.token = json.getString("token_no")
                                 listProduct.add(data)
                             }
                         }
